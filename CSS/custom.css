@@ -2,7 +2,7 @@ body, html {
 	height: 100%;
   }
 
-.bg{
+.background_img{
 	background-image: url(./img/Tinder-logo.jpg);
 
 	/* Full height */
@@ -23,6 +23,20 @@ h2 {
 	font-weight: bold;
 }
 
-span{
+.container{
+	display: flex;
+}
+
+.btn{
+	border-radius: 30px;
+	white-space:normal !important;
+    word-wrap: break-word; 
+}
+
+.card{
 	align-content: center;
+	margin: 100px 0px 87px 250px;
+}
+.app_link{
+	margin: 0px;
 }
