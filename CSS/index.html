@@ -17,9 +17,9 @@
   <body>
     <div class="bg">
         <!-- Center container(white background)-->
-        <span class="align-middle">
+        <span>
         <div class="container ">
-            <div class="card text-center">
+            <div class="card text-center align-middle">
                 <div class="card-body">
 
                 <button type="button" class="close d-flex justify-content-end" aria-label="Close">
@@ -32,8 +32,10 @@
                 <p>By clikcing log in, you agree with our <a href="#">Terms</a>, <a href="#">Privacy</a>, 
                     <a href="#">Policy</a> and <a href="#">Cookie Policy</a> 
                 </p>
+                <!--  Authentication form -->
                 <form>
                     <!-- add round Egdes -->
+                    <div class="#round">
                     <button class="btn btn-primary btn-lg w-75 p-3" type="submit">
                         LOG IN WITH FACEBOOK
                     </button>
@@ -41,25 +43,29 @@
 
                     <!-- add round Egdes -->
                     <input type="tel" class="text-center w-75 p-3" placeholder="LOG IN WITH PHONE NUMBER">
+                    </div>
                 </form>
                 <br>
 
                 <a href="#">Trouble logging in?</a>
                 <br>
-                <i class="fab fa-google-play"></i>
-                <i class="fas fa-camera"> </i>
 
                 <h2>GET THE APP!</h2>
 
+                <!--- istore and google pay -->
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-3 col-lg-4">
                         <div class="card">
-                            <img src="./img/apple_logo.png" class="mx-auto my-0.6" alt="apple Logo">
+                            <a href="#">
+                                <img src="./img/apple_logo.png" class="mx-auto my-0.6" alt="apple Logo">
+                            </a>
                          </div>
                     </div>
                     <div class="col-md-3 col-lg-4">
                         <div class="card">
-                            <img src="./img/google_play_logo.png" class="mx-auto my-0.6" alt="apple Logo">
+                            <a href="#">
+                                <img src="./img/google_play_logo.png" class="mx-auto my-0.6" alt="apple Logo">
+                            </a>
                         </div>
                     </div>
                 </div>
